@@ -32,35 +32,35 @@ const NavBar = () => {
         <div className="nav">
             <Link
              to={'/All'}
-             className={`nav-link ${activeTab === "/" ? "active" : ""}`}
-             onClick={() => handleTab("/")}
+             className={`nav-link ${activeTab === "/All" ? "active" : ""}`}
+             onClick={() => handleTab("/All")}
             > All
             </Link>
            
             <Link
              to={'/fullstack'}
-             className={`nav-link ${activeTab === "/fsd" ? "active" : ""}`}
-             onClick={() => handleTab("/fsd")}
+             className={`nav-link ${activeTab === "/FullStack" ? "active" : ""}`}
+             onClick={() => handleTab("/FullStack")}
             > FullStack Development
             </Link>
             
             <Link
              to={'/datascience'}
-             className={`nav-link ${activeTab === "/datascience" ? "active" : ""}`}
-             onClick={() => handleTab("/datascience")}
+             className={`nav-link ${activeTab === "/DataScience" ? "active" : ""}`}
+             onClick={() => handleTab("/DataScience")}
             > DataScience
             </Link>
             
             <Link
              to={'/Cyber'}
-             className={`nav-link ${activeTab === "/cybersecurity" ? "active" : ""}`}
-             onClick={() => handleTab("/cybersecurity")}
+             className={`nav-link ${activeTab === "/Cyber" ? "active" : ""}`}
+             onClick={() => handleTab("/Cyber")}
             >Cyber
             </Link>
             
             <Link
              to={'/Carrer'}
-             className={`nav-link ${activeTab === "/carrer" ? "active" : ""}`}
+             className={`nav-link ${activeTab === "/Carrer" ? "active" : ""}`}
              onClick={() => handleTab("/Carrer")}
             > Carrer
             </Link>
